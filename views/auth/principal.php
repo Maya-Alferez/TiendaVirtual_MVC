@@ -31,4 +31,14 @@
     </header>
 
     <h1 class="titulo-principal">Mictli Gatita Pikachita</h1>
+    <div class="nav-sec contenedor">
+        <nav class="navegacion-secundaria">
+            <a class="enlace" href="/catalogo">Cátalogo</a>
+            <a class="enlace" href="/sobremictli">Sobre Mictli</a>
+            <a class="enlace" href="/tallas">Tabla de tallas</a>
+            <a class="enlace" href="/envio">Envio/Entrega inmediata</a>
+            <a class="enlace" href="/preowned">Pre-owned</a>
+            <a class="enlace" href="/terminos">Términos</a>
+        </nav>
+    </div>
 </body>

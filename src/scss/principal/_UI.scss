@@ -39,4 +39,37 @@
     font-family: v.$fuente_secundaria;
     font-size: 5rem;
     padding: 3rem;
+    margin: 0;
+}
+
+.nav-sec {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-evenly;
+
+    .navegacion-secundaria {
+        font-family: v.$fuente_principal;
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+
+        a {
+            color: v.$negro;
+            margin: 2rem;
+        }
+    }
+}
+
+.enlace:hover {
+    cursor: pointer;
+}
+
+.navegacion-secundaria a:hover {
+    color: v.$salmon;
+}
+
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
 }
