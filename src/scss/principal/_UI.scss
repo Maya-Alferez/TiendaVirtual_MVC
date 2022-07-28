@@ -1,0 +1,42 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.nav-bg {
+    background-color: v.$negro;
+    padding: 0.1rem;
+
+    .navegacion-principal {
+        display: flex;
+        align-items: center;
+
+        .izquierda {
+            display: inline-flex;
+            margin-left: 2rem;
+        }
+
+        .derecha {
+            display: inline-flex;
+            align-items: center;
+            justify-content: right;
+
+            a {
+                font-family: v.$fuente_principal;
+                font-weight: 14px;
+                color:v.$blanco;
+                margin-right: 3rem;
+                text-align: right;
+            }
+        }
+    }
+
+    .flag {
+        width:3rem;
+        margin-right:0.2rem;
+    }
+}
+
+.titulo-principal {
+    font-family: v.$fuente_secundaria;
+    font-size: 5rem;
+    padding: 3rem;
+}

@@ -1,0 +1,19 @@
+{
+    "name": "maya/georgina_page",
+    "description": "Primer intento de hacer una tienda virtual, con la plantilla de appsalon del curso udemy",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maya Alférez"
+        }
+    ],
+    "require": {}
+}
