@@ -41,4 +41,34 @@
             <a class="enlace" href="/terminos">Términos</a>
         </nav>
     </div>
+
+    <!-- Place somewhere in the <body> of your page -->
+    <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="../build/img/f1.jpg" />
+            </li>
+            <li>
+                <img src="../build/img/f2.jpg" />
+            </li>
+            <li>
+                <img src="../build/img/f3.jpg" />
+            </li>
+            <li>
+                <img src="../build/img/f4.jpg" />
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        $(function($){
+            $('.flexslider').flexslider({
+                animation: "slide"
+            });
+        });
+    </script>
+
+
+
+
 </body>
