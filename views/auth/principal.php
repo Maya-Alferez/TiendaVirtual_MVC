@@ -1,4 +1,5 @@
 <body>
+<!-- Barra de navegación en la parte superior de la página -->
     <header>
         <div class="nav-bg">
             <nav class="navegacion-principal">
@@ -29,8 +30,10 @@
             </nav>
         </div>
     </header>
+<!-- Fin de Barra de navegación -->
 
     <h1 class="titulo-principal">Mictli Gatita Pikachita</h1>
+<!-- Navegación secundaria en Body -->
     <div class="nav-sec contenedor">
         <nav class="navegacion-secundaria">
             <a class="enlace" href="/catalogo">Cátalogo</a>
@@ -41,8 +44,9 @@
             <a class="enlace" href="/terminos">Términos</a>
         </nav>
     </div>
+<!-- Fin de Navegación secundaria en Body -->
 
-    <!-- Place somewhere in the <body> of your page -->
+<!-- Flexslider -->
     <div class="flexslider">
         <ul class="slides">
             <li>
@@ -59,16 +63,6 @@
             </li>
         </ul>
     </div>
-
-    <script>
-        $(function($){
-            $('.flexslider').flexslider({
-                animation: "slide"
-            });
-        });
-    </script>
-
-
-
+<!-- Fin Flexslider -->
 
 </body>
