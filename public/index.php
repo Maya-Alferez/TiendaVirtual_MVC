@@ -39,6 +39,7 @@ $router->get('/tallas', [PublicController::class, 'tallas']);
 $router->get('/envio', [PublicController::class, 'envio']);
 $router->get('/preowned', [PublicController::class, 'preowned']);
 $router->get('/terminos', [PublicController::class, 'terminos']);
+$router->get('/glaceon', [PublicController::class, 'glaceon']);
 
 
 

@@ -29,4 +29,8 @@ class PublicController {
     public static function terminos(Router $router) {
         $router->render('auth/terminos');
     }
+
+    public static function glaceon(Router $router) {
+        $router->render('evees/glaceon');
+    }
 }

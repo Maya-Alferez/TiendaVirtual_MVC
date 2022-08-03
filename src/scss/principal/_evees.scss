@@ -1,0 +1,55 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.contenedor-evees {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.evee {
+    background-color: lighten(v.$blanco, $amount: 5);
+    border: 1px solid v.$blanco;
+    .contenido-evee {
+        padding: 1rem;
+    }
+    h3, p {
+        margin: 0;
+        text-align: center;
+    }
+    .precio {
+        color: v.$salmon;
+        font-family: v.$fuente_principal;
+        font-size: 2rem;
+        font-weight: v.$delgada;
+    }
+    .titulo {
+        font-family: v.$fuente_principal;
+        text-transform: uppercase;
+        font-size: 2rem;
+        text-decoration: none;
+        font-weight: v.$delgada;
+    }
+    .boton {
+        background-color: v.$salmon;
+        padding: 1.5rem 4rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: v.$delgada;
+        border-radius: 0.5rem;
+        transition-property: background-color;
+        transition-duration: .3s;
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin: 0 rem;
+       
+        &:hover {
+            background-color: lighten($color: v.$salmon, $amount: 5);
+        }
+    }
+    a {
+        color:v.$blanco;
+    }
+}
