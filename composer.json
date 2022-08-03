@@ -15,5 +15,7 @@
             "name": "Maya Alférez"
         }
     ],
-    "require": {}
+    "require": {
+        "intervention/image": "^2.7"
+    }
 }

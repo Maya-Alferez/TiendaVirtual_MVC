@@ -46,22 +46,34 @@
     </div>
 <!-- Fin de Navegación secundaria en Body -->
 
+<!-- Intervetion Image --> 
+
+<!-- <?php
+// require '../includes/app.php';
+// use Intervetion\Image\ImageManager;
+// $manager = new ImageManager(array('driver' => 'gd'));
+// $image = $manager->make('../../src/img/f1.jpg')->fit(800,504);
+// $image->save('../../src/img/f1.jpg');
+// ?> -->
+
 <!-- Flexslider -->
-    <div class="flexslider">
-        <ul class="slides">
-            <li>
-                <img src="../build/img/f1.jpg" />
-            </li>
-            <li>
-                <img src="../build/img/f2.jpg" />
-            </li>
-            <li>
-                <img src="../build/img/f3.jpg" />
-            </li>
-            <li>
-                <img src="../build/img/f4.jpg" />
-            </li>
-        </ul>
+    <div class="contenedor">
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img class="imagen" src="../build/img/Mictli_enojada.jpg" />
+                </li>
+                <li>
+                    <img class="imagen" src="../build/img/Mictli_lenguita.jpg" />
+                </li>
+                <li>
+                    <img class="imagen" src="../build/img/Mictli_vampiro.jpg" />
+                </li>
+                <li>
+                    <img class="imagen" src="../build/img/Mictli_tiburon.jpg" />
+                </li>
+            </ul>
+        </div>
     </div>
 <!-- Fin Flexslider -->
 </body>
