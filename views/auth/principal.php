@@ -107,31 +107,31 @@
 
         <div class="evee">
             <picture>
-                <source srcset="../build/img/Glaceon.webp" type="image/webp">
-                <source srcset="../build/img/Glaceon.jpg" type="image/jpeg">
-                <img loading="lazy" src="../build/img/Glaceon.jpg" alt="Glaceon">
+                <source srcset="../build/img/speon.webp" type="image/webp">
+                <source srcset="../build/img/speon.jpg" type="image/jpeg">
+                <img loading="lazy" src="../build/img/speon.jpg" alt="speon">
             </picture>
             <div class="contenido-evee">
-                <h3 class="titulo">Mictli Glaceon</h3>
+                <h3 class="titulo">Mictli Speon</h3>
                 <p class="precio">$100</p>
             </div>
             <div class="boton">
-                <a href="/vaporeon">Ver detalles</a>
+                <a href="/speon">Ver detalles</a>
             </div> <!-- .boton --> 
         </div> <!-- .evee -->
 
         <div class="evee">
             <picture>
-                <source srcset="../build/img/Jolteon.webp" type="image/webp">
-                <source srcset="../build/img/Jolteon.jpg" type="image/jpeg">
-                <img loading="lazy" src="../build/img/Jolteon.jpg" alt="Jolteon">
+                <source srcset="../build/img/vaporeon.webp" type="image/webp">
+                <source srcset="../build/img/vaporeon.jpg" type="image/jpeg">
+                <img loading="lazy" src="../build/img/vaporeon.jpg" alt="vaporeon">
             </picture>
             <div class="contenido-evee">
-                <h3 class="titulo">Mictli Jolteon</h3>
+                <h3 class="titulo">Mictli Vaporeon</h3>
                 <p class="precio">$100</p>
             </div>
             <div class="boton">
-                <a href="/speon">Ver detalles</a>
+                <a href="/vaporeon">Ver detalles</a>
             </div> <!-- .boton --> 
         </div> <!-- .evee -->
 
