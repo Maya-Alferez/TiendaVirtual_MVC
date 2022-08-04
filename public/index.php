@@ -39,14 +39,14 @@ $router->get('/tallas', [PublicController::class, 'tallas']);
 $router->get('/envio', [PublicController::class, 'envio']);
 $router->get('/preowned', [PublicController::class, 'preowned']);
 $router->get('/terminos', [PublicController::class, 'terminos']);
+$router->get('/flareon', [PublicController::class, 'flareon']);
 $router->get('/glaceon', [PublicController::class, 'glaceon']);
-
-
-
-
-
-
-
+$router->get('/jolteon', [PublicController::class, 'jolteon']);
+$router->get('/speon', [PublicController::class, 'speon']);
+$router->get('/sylveon', [PublicController::class, 'sylveon']);
+$router->get('/umbreon', [PublicController::class, 'umbreon']);
+$router->get('/vaporeon', [PublicController::class, 'vaporeon']);
+$router->get('/tiburon', [PublicController::class, 'tiburon']);
 
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
 $router->comprobarRutas();

@@ -30,7 +30,35 @@ class PublicController {
         $router->render('auth/terminos');
     }
 
+    public static function flareon(Router $router) {
+        $router->render('evees/flareon');
+    }
+
     public static function glaceon(Router $router) {
         $router->render('evees/glaceon');
+    }
+
+    public static function jolteon(Router $router) {
+        $router->render('evees/jolteon');
+    }
+
+    public static function speon(Router $router) {
+        $router->render('evees/speon');
+    }
+
+    public static function sylveon(Router $router) {
+        $router->render('evees/sylveon');
+    }
+
+    public static function umbreon(Router $router) {
+        $router->render('evees/umbreon');
+    }
+
+    public static function vaporeon(Router $router) {
+        $router->render('evees/vaporeon');
+    }
+
+    public static function tiburon(Router $router) {
+        $router->render('evees/tiburon');
     }
 }
