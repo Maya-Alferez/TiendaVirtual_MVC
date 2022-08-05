@@ -1,0 +1,63 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.content{
+    margin: 0 auto;
+    width: v.$contenedor_principal;
+    .headContent{
+        display:flex;
+        justify-content: space-between;
+        .breadcrums{
+            flex-basis: calc( 50% - 1rem );
+
+        }
+        .socialshare{
+
+        }
+    }
+}
+
+.eveeDets{
+    .eveeMain{
+        .img-ph{
+
+        }
+        .sideinfo{
+            .eveeTitle{
+
+            }
+
+            .eveeReviewBar{
+
+            }
+            .eveePrice{
+                .pricebefore{
+
+                }
+                .discountPercent{
+
+                }
+                .savings{
+
+                }
+
+                
+            }
+            .eveeAddToCart{
+
+            }
+            .shipInfo{
+                .shipCost{
+
+                }
+                .shipEstimated{
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
