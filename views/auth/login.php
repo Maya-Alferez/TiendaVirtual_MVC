@@ -1,14 +1,15 @@
-<h1>Mictli Gatita</h1>
-<h2>Inicia sesión</h2>
+<h1 class="titulo-principal">
+    <a href="/" class="logo enlace">Mictli Gatita Pikachita</a>
+</h1>
 
 <form action="/" class="formulario" method="POST">
     <div class="campo">
-        <label for="email">email</label>
-        <input type="email" id="email" placeholder="email" name="email">
+        <label class="campo-label" for="email">email</label>
+        <input class="campo-field" type="email" id="email" placeholder="email" name="email">
     </div>
     <div class="campo">
-        <label for="password">contraseña</label>
-        <input type="password" id="password" placeholder="contraseña" name="password">
+        <label class="campo-label" for="password">contraseña</label>
+        <input class="campo-field" type="password" id="password" placeholder="contraseña" name="password">
     </div>
     <input type="submit" class="boton" value="iniciar sesión">
 </form>

@@ -77,21 +77,6 @@
 
         <div class="evee">
             <picture>
-                <source srcset="../build/img/Sylveon.webp" type="image/webp">
-                <source srcset="../build/img/Sylveon.jpg" type="image/jpeg">
-                <img loading="lazy" src="../build/img/Sylveon.jpg" alt="Sylveon">
-            </picture>
-            <div class="contenido-evee">
-                <h3 class="titulo">Mictli Sylveon</h3>
-                <p class="precio">$100</p>
-            </div>
-            <div class="boton">
-                <a href="/sylveon">Ver detalles</a>
-            </div> <!-- .boton --> 
-        </div> <!-- .evee -->
-
-        <div class="evee">
-            <picture>
                 <source srcset="../build/img/Umbreon.webp" type="image/webp">
                 <source srcset="../build/img/Umbreon.jpg" type="image/jpeg">
                 <img loading="lazy" src="../build/img/Umbreon.jpg" alt="Umbreon">
@@ -143,6 +128,21 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Sylveon</h3>
+                <p class="precio">$100</p>
+            </div>
+            <div class="boton">
+                <a href="/flareon">Ver detalles</a>
+            </div> <!-- .boton --> 
+        </div> <!-- .evee -->
+
+        <div class="evee">
+            <picture>
+                <source srcset="../build/img/Flareon.webp" type="image/webp">
+                <source srcset="../build/img/Flareon.jpg" type="image/jpeg">
+                <img loading="lazy" src="../build/img/Flareon.jpg" alt="Flareon">
+            </picture>
+            <div class="contenido-evee">
+                <h3 class="titulo">Mictli Flareon</h3>
                 <p class="precio">$100</p>
             </div>
             <div class="boton">
