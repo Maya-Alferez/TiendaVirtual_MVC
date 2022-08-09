@@ -77,19 +77,51 @@
 .footer {
     background-color: v.$negro;
     margin: 2rem 0 0 0;
-    p {
-        color:v.$blanco;
-        text-align: center;
-        font-family: v.$fuente_principal;
-        font-size: 1.5rem;
-    }
+    padding: 2rem;
+}
+
+.reservado {
+    color:v.$blanco;
+    text-align: center;
+    font-family: v.$fuente_principal;
+    font-size: 1.5rem;
 
     .icon {
-        margin-right: 0;
+    margin-right: 0;
+    }
+
+    .lab {
+        font-weight: 600;
     }
 
     .año {
-        font-family: v.$fuente_principal;
-        font-size: 1.3rem;
+    font-family: v.$fuente_principal;
+    font-size: 1.3rem;
+    }
+}
+
+.red {
+    margin-top: 0;
+    .social {
+        display: flex;
+        float: right;
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .space-left {
+        padding-left: 1rem;
+    }
+    .icono {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: v.$negro;
+    }
+    a:hover {
+        background-color: lighten(v.$salmon, 10%);
     }
 }
