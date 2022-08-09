@@ -60,8 +60,8 @@ class LoginController {
         echo "Desde recuperar contraseña";
     }
 
-    public static function crear() {
-        echo "Desde crear cuenta";
+    public static function crear(Router $router) {
+        $router->render('auth/crear');
     }
 
     public static function carrito() {

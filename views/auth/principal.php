@@ -53,7 +53,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Glaceon</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/glaceon">Ver detalles</a>
@@ -68,7 +68,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Jolteon</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/jolteon">Ver detalles</a>
@@ -83,7 +83,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Umbreon</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/umbreon">Ver detalles</a>
@@ -98,7 +98,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Speon</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/speon">Ver detalles</a>
@@ -113,7 +113,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Vaporeon</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/vaporeon">Ver detalles</a>
@@ -128,7 +128,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Sylveon</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/flareon">Ver detalles</a>
@@ -143,7 +143,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Flareon</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/flareon">Ver detalles</a>
@@ -158,7 +158,7 @@
             </picture>
             <div class="contenido-evee">
                 <h3 class="titulo">Mictli Tiburon (Edición especial)</h3>
-                <p class="precio">$100</p>
+                <p class="titulo-sec"> Precio desde <span class="precio">$1,000.00 MXN</span></p>
             </div>
             <div class="boton">
                 <a href="/tiburon">Ver detalles</a>
