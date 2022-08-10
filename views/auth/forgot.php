@@ -5,25 +5,19 @@
         </h1>
         <form action="/" class="formulario" method="POST">
             <fieldset>
-                <legend class="legend-crear">datos personales</legend>
-                <div class="contenedor-crear">
-                    <div class="campo">
-                        <input class="campo-field" type="text" id="nombre" placeholder="Nombre(s)*" name="nombre">
-                    </div>
-                    <div class="campo">
-                        <input class="campo-field" type="text" id="apellido" placeholder="Apellido*" name="apellido">
-                    </div>
-                    <div class="campo">
-                        <input class="campo-field" type="email" id="email" placeholder="Correo electrónico*" name="email">
-                    </div>
-                    <div class="campo">
-                        <input class="campo-field" type="password" id="password" placeholder="Contraseña*" name="password">
+                <legend class="legend">restablecer su contraseña</legend>
+                <p class="texto-forgot">Le enviaremos un correo electrónico para restablecer su contraseña.</p>
+                <div class="contenedor-forgot">
+                    <div class="campo-forgot">
+                        <label class="label-email" for="email">Correo electrónico</label>
+                        <input class="campo-email" type="email" id="email" placeholder=" " name="email">
                     </div>
                     <div class="alinear-derecha flex">
-                        <input type="submit" class="boton w-sm-100" value="crear cuenta">
+                        <input type="submit" class="boton-forgot" value="Enviar">
                     </div>
-                    <div class="acciones">
+                    <div class="acciones-forgot">
                         <a href="/login">Iniciar sesión</a>
+                        <a href="/crear">Crear cuenta</a>
                     </div>
                 </div>
             </fieldset>

@@ -1,0 +1,73 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.legend {
+    text-align: center;
+    font-family: v.$fuente_principal;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.texto-forgot {
+    text-align: center;
+    color: darken(v.$gris, 25%);
+    margin-top: 0;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.contenedor-forgot {
+    display: block;
+}
+
+.campo-forgot {
+    .label-email {
+        display: block;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+    .campo-email {
+        width: 100%;
+        padding: 1rem;
+        margin-bottom: 2rem;
+        border: 1px solid v.$gris;
+    }
+
+}
+
+.boton-forgot {
+    padding: 1.3rem 5rem;
+    font-family: v.$fuente_principal;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    border: none;
+    background-color: v.$negro;
+    color:v.$blanco;
+    border-radius: 0.5rem;
+
+    &:hover {
+        cursor: pointer;
+        background-color: lighten(v.$salmon, 10%);
+    }
+}
+
+.acciones-forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: v.$fuente_principal;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+
+    a {
+        color: v.$negro;
+        &:hover {
+            cursor: pointer;
+            color:lighten(v.$salmon, 10%);
+        }
+    }
+}
