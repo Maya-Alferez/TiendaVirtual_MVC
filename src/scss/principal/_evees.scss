@@ -30,6 +30,7 @@
         font-size: 1.7rem;
         font-weight: v.$delgada;
         margin-top: 1rem;
+        text-align: center;
     }
     .titulo {
         font-family: v.$fuente_principal;
@@ -37,9 +38,10 @@
         font-size: 1.6rem;
         text-decoration: none;
         font-weight: v.$delgada;
+        text-align: center;
     }
     .boton {
-        background-color: v.$salmon;
+        background-color: v.$negro;
         padding: 1.5rem 4rem;
         text-transform: uppercase;
         color: #FFFFFF;
@@ -60,5 +62,22 @@
     }
     a {
         color:v.$blanco;
+    }
+
+    .margin-top {
+        margin-top: 2.3rem;
+    }
+}
+
+.text-center {
+    text-align: center;
+    h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+    
+    a {
+        color: darken($color: v.$gris, $amount: 30);
     }
 }

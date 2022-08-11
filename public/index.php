@@ -47,6 +47,9 @@ $router->get('/sylveon', [PublicController::class, 'sylveon']);
 $router->get('/umbreon', [PublicController::class, 'umbreon']);
 $router->get('/vaporeon', [PublicController::class, 'vaporeon']);
 $router->get('/tiburon', [PublicController::class, 'tiburon']);
+$router->get('/eevee', [PublicController::class, 'eevee']);
+$router->get('/pikachu', [PublicController::class, 'pikachu']);
+$router->get('/mimikyu', [PublicController::class, 'mimikyu']);
 
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
 $router->comprobarRutas();

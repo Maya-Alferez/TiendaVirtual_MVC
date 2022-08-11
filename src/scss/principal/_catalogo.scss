@@ -1,0 +1,34 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.grid-contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenedor-colecciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.titulo-colec {
+    font-family: v.$fuente_principal;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.boton-cat {
+    font-size: 1.5rem;
+    text-align: center;
+    a {
+        color: v.$blanco;
+    }
+}
+
+.titulo-sec {
+    margin-top: 0;
+    text-align: center;
+}

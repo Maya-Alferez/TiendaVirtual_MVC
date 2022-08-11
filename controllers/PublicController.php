@@ -61,4 +61,16 @@ class PublicController {
     public static function tiburon(Router $router) {
         $router->render('evees/tiburon');
     }
+
+    public static function eevee(Router $router) {
+        $router->render('catalogo/eevee');
+    }
+
+    public static function pikachu(Router $router) {
+        $router->render('catalogo/pikachu');
+    }
+
+    public static function mimikyu(Router $router) {
+        $router->render('catalogo/mimikyu');
+    }
 }

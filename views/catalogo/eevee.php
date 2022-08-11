@@ -3,53 +3,85 @@
         <h1 class="titulo-principal">
             <a href="/" class="logo enlace">Mictli Gatita Pikachita</a>
         </h1>
-        <h2 class="titulo-sec">Catalogo</h2>
+        <div class="text-center">
+            <h2 class="titulo titulo-enlace"><a href="/catalogo">Catalogo</a>/ Productos</h2>
+        </div>
+        
         <section class="grid-contenedor">
-            <div class="contenedor-colecciones">
-                <div class="coleccion">
+            <div class="contenedor-evees">
+                <div class="evee">
                     <picture>
-                        <source srcset="../build/img/coleccion_eevee.webp" type="image/webp">
-                        <source srcset="../build/img/coleccion_eevee.jpg" type="image/jpeg">
-                        <img loading="lazy" src="../build/img/coleccion_eevee.jpg" alt="coleccion eevee">
+                        <source srcset="../build/img/jolteoneev.webp" type="image/webp">
+                        <source srcset="../build/img/jolteoneev.jpg" type="image/jpeg">
+                        <img loading="lazy" src="../build/img/jolteoneev.jpg" alt="jolteon evee">
                     </picture>
-                    <div class="contenido-coleccion">
-                        <h3 class="titulo-colec">Colección Eevee</h3>
+                    <div class="contenido-evee">
+                        <h3 class="titulo-sec margin-top">Eevee Jolteon</h3>
                     </div>
                     <div class="boton boton-cat">
-                        <a href="/eevee">Ver más</a>
-                    </div> <!-- .boton -->
-                </div> <!--.colección -->
+                        <a href="/jolteon">Ver detalles</a>
+                    </div><!--.boton -->
+                </div><!-- .producto -->
 
-                <div class="coleccion">
+                <div class="evee">
                     <picture>
-                        <source srcset="../build/img/coleccion_mimikyu.webp" type="image/webp">
-                        <source srcset="../build/img/coleccion_mimikyu.jpg" type="image/jpeg">
-                        <img loading="lazy" src="../build/img/coleccion_mimikyu.jpg" alt="coleccion mimikyu">
+                        <source srcset="../build/img/speoneev.webp" type="image/webp">
+                        <source srcset="../build/img/speoneev.jpg" type="image/jpeg">
+                        <img loading="lazy" src="../build/img/speoneev.jpg" alt="speon evee">
                     </picture>
-                    <div class="contenido-coleccion">
-                        <h3 class="titulo-colec">Colección mimikyu</h3>
+                    <div class="contenido-evee">
+                        <h3 class="titulo-sec">Eevee Speon</h3>
                     </div>
                     <div class="boton boton-cat">
-                        <a href="/mimikyu">Ver más</a>
-                    </div> <!-- .boton -->
-                </div> <!--.colección -->
-                <div class="coleccion">
+                        <a href="/speon">Ver detalles</a>
+                    </div><!--.boton -->
+                </div><!-- .producto -->
+
+                <div class="evee">
                     <picture>
-                        <source srcset="../build/img/coleccion_pikachu.webp" type="image/webp">
-                        <source srcset="../build/img/coleccion_pikachu.jpg" type="image/jpeg">
-                        <img loading="lazy" src="../build/img/coleccion_pikachu.jpg" alt="coleccion pikachu">
+                        <source srcset="../build/img/sylveoneev.webp" type="image/webp">
+                        <source srcset="../build/img/sylveoneev.jpg" type="image/jpeg">
+                        <img loading="lazy" src="../build/img/sylveoneev.jpg" alt="sylveon evee">
                     </picture>
-                    <div class="contenido-coleccion">
-                        <h3 class="titulo-colec">Colección Pikachu</h3>
+                    <div class="contenido-evee">
+                        <h3 class="titulo-sec">Eevee Sylveon</h3>
                     </div>
                     <div class="boton boton-cat">
-                        <a href="/pikachu">Ver más</a>
-                    </div> <!-- .boton -->
-                </div> <!--.colección -->
-            </div><!-- .contenedor-colecciones-->
+                        <a href="/sylveon">Ver detalles</a>
+                    </div><!--.boton -->
+                </div><!-- .producto -->
+
+                <div class="evee">
+                    <picture>
+                        <source srcset="../build/img/umbreoneev.webp" type="image/webp">
+                        <source srcset="../build/img/umbreoneev.jpg" type="image/jpeg">
+                        <img loading="lazy" src="../build/img/umbreoneev.jpg" alt="umbreon evee">
+                    </picture>
+                    <div class="contenido-evee">
+                        <h3 class="titulo-sec">Eevee Umbreon</h3>
+                    </div>
+                    <div class="boton boton-cat">
+                        <a href="/umbreon">Ver detalles</a>
+                    </div><!--.boton -->
+                </div><!-- .producto -->
+
+                <div class="evee">
+                    <picture>
+                        <source srcset="../build/img/vaporeoneev.webp" type="image/webp">
+                        <source srcset="../build/img/vaporeoneev.jpg" type="image/jpeg">
+                        <img loading="lazy" src="../build/img/vaporeoneev.jpg" alt="vaporeon evee">
+                    </picture>
+                    <div class="contenido-evee">
+                        <h3 class="titulo-sec">Eevee Vaporeon</h3>
+                    </div>
+                    <div class="boton boton-cat">
+                        <a href="/vaporeon">Ver detalles</a>
+                    </div><!--.boton -->
+                </div><!-- .producto -->
+            </div><!-- .contenedor-productos-->
         </section>
     </body>
-    
+
     <footer class="footer">
         <div class="redes">
             <div class="red">

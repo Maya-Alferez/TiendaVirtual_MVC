@@ -26,6 +26,10 @@
                 margin-right: 3rem;
                 text-align: right;
             }
+
+            a:hover {
+                color:lighten(v.$salmon, 10%);
+            }
         }
     }
 
@@ -37,6 +41,7 @@
 
 .titulo-principal {
     font-family: v.$fuente_secundaria;
+    text-align: center;
     font-size: 5rem;
     padding: 3rem;
     margin: 0;
