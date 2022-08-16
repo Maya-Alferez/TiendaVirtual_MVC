@@ -1,0 +1,41 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.p-terminos {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.p-titulo {
+    font-family: v.$fuente_principal;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.contenedor-texto {
+    font-family: v.$fuente_principal;
+    line-height: 2rem;
+
+    .span-precio {
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    p {
+        margin: 0.8rem auto;
+    }
+
+    a {
+        color: v.$negro;
+        font-weight: 600;
+        &:hover {
+            cursor: pointer;
+            color:lighten(v.$salmon, 10%);
+        }
+    }
+
+    .last-p {
+        padding-top: 3.5rem;
+    }
+}
