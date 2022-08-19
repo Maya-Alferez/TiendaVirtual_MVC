@@ -9,6 +9,7 @@
         <link rel="icon" type="image/jpg" href="/build/img/favicon.png"/>
         <link rel="stylesheet" href="build/css/app.css">
 	    <link rel="stylesheet" href="/build/css/flexslider.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  <!-- jQuery -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <!-- FlexSlider -->
