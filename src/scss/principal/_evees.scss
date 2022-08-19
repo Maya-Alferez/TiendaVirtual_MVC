@@ -2,10 +2,11 @@
 @use 'base/mixins' as m;
 
 .contenedor-evees {
-    display: grid;
-    gap: 2rem;
-    grid-template-columns: repeat(3, 1fr);
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
 }
+    
 .evee {
     background-color: lighten(v.$blanco, $amount: 5);
     border: 1px solid v.$blanco;
